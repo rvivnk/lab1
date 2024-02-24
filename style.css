@@ -1,0 +1,46 @@
+body {
+	background-color: #D8C5C6
+}
+h1{
+	color: #060A1E;
+	text-align: center;
+	font: small-caps bold 24px/1 sans-serif;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 2px;
+}
+img {
+	max-width: 300px;
+	margin: 0 200px auto;
+	border-radius: 50%;
+}
+.container {
+	display: flex;
+}
+.container div.image-col1 {
+	flex: 1;
+}
+.container div.text-col2 {
+    flex: 1;
+}
+th {
+    border: 1px solid black;
+    padding: 2px;
+}
+/*@media (min-width: 600px) {
+	body {
+		background-color: red;
+	}
+}
+
+@media (max-width: 599px) {
+	body {
+		background-color: blue;
+	}
+}*/
